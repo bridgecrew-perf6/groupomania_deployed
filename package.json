@@ -1,5 +1,11 @@
 {
+  "homepage": "http://souleimane-z.github.io/groupomania_deployed",
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "parcel": "^2.5.0"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }
